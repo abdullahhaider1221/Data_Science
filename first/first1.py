@@ -1,0 +1,1 @@
+print("abdullah haider jutt")
