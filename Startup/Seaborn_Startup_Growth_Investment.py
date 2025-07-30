@@ -103,7 +103,7 @@ sns.displot(data=df_filter, x="Funding Rounds", y="Valuation (USD)", hue="Fundin
 plt.suptitle("Funding_Round And Valuation_(USD)")
 plt.show()
 
-""""kind="kde" in Seaborn specifies the use of Kernel Density Estimation plots. KDE plots visualize the probability density of a continuous variable. Instead of discrete bins like in histograms, KDE plots use a continuous curve to estimate the underlying distribution of the data. This provides a smoother and often more informative representation of the data's distribution, especially for continuous variables."""
+"""kind="kde" in Seaborn specifies the use of Kernel Density Estimation plots. KDE plots visualize the probability density of a continuous variable. Instead of discrete bins like in histograms, KDE plots use a continuous curve to estimate the underlying distribution of the data. This provides a smoother and often more informative representation of the data's distribution, especially for continuous variables."""
 # Kind="kde"
 # displot    -  Figure-level Interface For Drawing Distribution Plots Onto A FacetGrid.
 sns.set_theme(style="darkgrid")
