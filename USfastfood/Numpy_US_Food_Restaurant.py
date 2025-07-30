@@ -4,10 +4,10 @@ import numpy as np
 # Load FastFoodRestaurants (4).csv dataset
 address, city, country, lat, long = np.genfromtxt("FastFoodRestaurants (4).csv", delimiter=",", usecols=(0, 1, 2, 4, 5), unpack=True, dtype=str, skip_header=1 , )
 print(f"Address is {address}")
-print(f"Address is {city}")
-print(f"Address is {country}")
-print(f"Address is {lat}")
-print(f"Address is {long}")
+print(f"City is {city}")
+print(f"Country is {country}")
+print(f"Latitude is {lat}")
+print(f"Longitude is {long}")
 
 
 # Clean latitude Remove Bad Rows
